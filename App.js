@@ -27,13 +27,6 @@ const App = () => {
         console.log('Captured image URI:', uri);
 
         // Overlay the watermark
-        // const watermarkedImage = await PhotoManipulator.overlayImage(
-        //   uri,
-        //   watermarkUri,
-        //   // TODO: Needs to make this dynamic
-        //   {x: 600, y: 750},
-        //   1, // Opacity of the watermark
-        // );
         const overlay =
           'https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png';
         const position = {
